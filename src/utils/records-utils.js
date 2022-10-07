@@ -44,7 +44,7 @@ const CardsText = [
     title: "Bicicleters",
     image: <Bicicleters/>,
     paragraph:
-      "Ecommerce de bicicletas y productos relacionados al ciclismo. Posee login de usuarios e integración de pagos con PayPal",
+      "E-commerce de bicicletas y productos relacionados al ciclismo. Posee login de usuarios e integración de pagos con PayPal",
     skills: "HTML5 - CSS -  Bootstrap 5 - API PayPal Sandbox - Javscript",
     linkGitHub: "https://github.com/sebastianbarcia/bicicleters",
     linkpage: "https://bicicleters.netlify.app/",
