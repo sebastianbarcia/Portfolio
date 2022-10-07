@@ -1,0 +1,33 @@
+@import '/src/App.scss';
+
+p{ 
+    color: $color-grey-1;
+}
+#paragraphLinkMail{
+    color: $color-grey-1;
+    text-decoration: none;
+}
+#paragraphLinkMail:hover{
+    color: $color-grey-1;
+    text-decoration: underline;
+}
+
+
+.color-linkedin-github{
+    fill: $color-grey-2;
+}
+
+.link-hover-footer:hover{
+    #Icon_simple-linkedin-2{
+        fill: $color-black;
+    }
+    #Icon_awesome-github-2{
+        fill: $color-black;
+    }
+}
+
+@media(max-width:572px){
+    .arrow-right{
+        display: none;
+    }
+}

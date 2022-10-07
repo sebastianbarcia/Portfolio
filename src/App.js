@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+//Styles
+import './App.scss';
+
+//Components
+import FrontPage from './components/FrontPage/FrontPage';
+import AboutMe from './components/AboutMe/AboutMe';
+import GroupSecondSection from './components/GroupSecondSection/GroupSecondSection';
+import Contact from './components/contact-footer/Contact';
+import IconArrowUp from './Vectors/IconArrowUp';
+
+import {TranslateProvider} from './context/context'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TranslateProvider>
+      <div className="App">
+        <FrontPage/>  
+        <AboutMe/>
+        <GroupSecondSection/>
+        <Contact/>
+        <IconArrowUp/>
+      </div>
+    </TranslateProvider>
   );
 }
 

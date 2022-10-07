@@ -1,0 +1,29 @@
+@import '/src/App.scss';
+
+.skills-group{
+    background-color: white;
+    height: max-content;
+    border-radius: 35px;
+}
+
+@media(max-width:991px){
+    #container-skills{
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+}
+
+@media(max-width:592px){
+    #container-skills{
+        padding-left: 10%;
+        padding-right: 10%;
+        }
+}
+
+@media(max-width:400px){
+    #container-skills{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+

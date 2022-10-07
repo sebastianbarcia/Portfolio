@@ -1,0 +1,128 @@
+@import '/src/App.scss';
+
+.back-ground{
+    background-color: $color-background;
+    background:linear-gradient(to bottom , $color-first-gradient,$third-back-color);
+    height: max-content;
+   .front-style{
+        padding-top: 19%;
+        padding-bottom: 6%;
+        h2{
+            color: $color-white;
+            font-size: $text-size-5;
+            font-weight: bold;
+            width: 60%;
+        }
+        p{
+            color: $color-white;
+            font-size: $text-size-4;
+            padding-top: 0.8rem;
+            width: 80%;
+        }
+        .white-linkedin-github{
+            fill: $color-white;
+        }
+        .link-hover-front:hover{
+            #Icon_simple-linkedin-2{
+                fill: $color-grey-5;
+            }
+            #Icon_awesome-github-2{
+                fill: $color-grey-5;
+            }
+        }
+   }
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+    .back-ground{
+        .front-style{
+            padding-top: 38%;
+            padding-bottom: 13%;  
+        } 
+        .arrow-spaces-front{
+            margin-top: 18rem;
+        }
+    }
+
+}
+
+
+@media(min-width: 401px) and (max-width: 525px){
+    .back-ground{
+        .front-style{
+            padding-top: 26%;
+            padding-bottom: 11%;  
+        }
+        .arrow-spaces-front{
+            margin-top: 3rem;
+        }
+       
+    }
+}
+
+@media(min-width: 390px) and (max-width: 400px){
+    .back-ground{
+        .front-style{
+            padding-top: 30%;
+            padding-bottom: 10%;  
+        }
+        .arrow-spaces-front{
+            margin-top: 3rem;
+        }
+       
+    }
+}
+
+@media(min-width: 361px) and (max-width: 389px){
+    .back-ground{
+        .front-style{
+            padding-top: 12%;
+            padding-bottom: 8%;  
+        }
+        .arrow-spaces-front{
+            margin-top: 0rem;
+            p{
+                margin-bottom: 0.5rem;
+            }
+        }
+
+       
+    }
+}
+
+@media(min-width: 326px) and (max-width: 360px){
+    .back-ground{
+        .front-style{
+            padding-top: 23%;
+            padding-bottom: 12%;  
+        }
+        .arrow-spaces-front{
+            margin-top: 1rem;
+        }
+       
+    }
+}
+
+
+@media(max-width: 325px){
+    .back-ground{
+        .front-style{
+           
+                padding-top: 5%;
+                padding-bottom: 5%;  
+            
+            .mt-6{
+                margin-top: 0rem;
+            }
+            h2{
+                width: 100%;
+            }
+            p{
+                width: 100%;
+            }
+        }
+       
+       
+    }
+}

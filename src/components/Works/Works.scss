@@ -1,0 +1,133 @@
+@import '/src/App.scss';
+
+.background-works{
+    background-color: black;
+    background-color: $color-background;
+    background:linear-gradient(to bottom, $color-first-gradient,$third-back-color);
+    height: max-content;
+    .works-container{
+        position: relative;
+        bottom: 1.5rem;
+        .cards-works{
+            width: 30%;
+            background-color: $color-white;
+            border-radius: 35px;
+            h6{
+                font-size: $text-size-3;
+            }
+            .cards-works-paragraph{
+                line-height: 2.2rem;
+                font-size: $text-size-3;
+                height: 180px;
+            }
+            .cards-works-skills{
+                font-size: $text-size-1b;
+                height: 50px;
+            }
+            .wk-color-one{
+                fill: $color-grey-5;
+            }
+            .wk-color-two{
+                fill: $color-grey-5;
+            }
+            .wk-color-four{
+                fill: $color-grey-2;
+            }
+            .wk-color-five{
+                fill: $color-grey-2;
+            }
+            .wk-color-three{
+                fill: $color-grey-2;
+            }
+            .cls-1{
+                fill: $color-grey-2;
+            }
+            .cls-2{
+                fill: $color-grey-3;
+            }
+            #Bicicleters{
+                fill: $color-grey-3;
+            }
+           
+        }
+    .cards-works:hover{
+        .wk-color-one{
+            fill: #c6c4c4;
+        }
+        .wk-color-two{
+            fill: #c7c5c5;
+        }
+        .wk-color-four{
+            fill: #cb5330;
+        }
+        .wk-color-five{
+            fill: #cb5330;
+        }
+        .wk-color-three{
+            fill: #cb5330;
+        }
+        .cls-1{
+            fill: #ff7a00;
+        }
+        .cls-2{
+            fill: #393939;
+        }
+        #Bicicleters{
+            fill: #707070;
+        }
+    }
+    }
+
+}
+
+@media(max-width:1200px){
+    .background-works{
+        .works-container{    
+            .cards-works{
+            width: 30%;
+                .cards-works-paragraph{
+                height: 275px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:952px){
+    .background-works{
+        .works-container{    
+            .cards-works{
+            width: 100%;
+                .cards-works-paragraph{
+                height: 90px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:592px){
+    .background-works{
+        .works-container{    
+            .cards-works{
+                width: 80%;
+                .cards-works-paragraph{
+                height: 130px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:400px){
+    .background-works{
+        .works-container{    
+            .cards-works{
+                width: 90%;
+                .cards-works-paragraph{
+                height: 150px;
+                }
+            }
+        }
+    }
+}

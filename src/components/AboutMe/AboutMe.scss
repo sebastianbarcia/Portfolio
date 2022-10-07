@@ -1,0 +1,44 @@
+@import '/src/App.scss';
+
+.paragraph-aboutMe{
+    color: $color-grey-1;
+    font-size: $text-size-3;
+    line-height: 2.2rem;
+}
+
+.img-AboutMe{
+    img{
+        height: 28rem;
+    }
+}
+
+#btn-cv{
+    background-color: $secondary-back-color;
+    border-color: $secondary-back-color;
+    color: $color-white;
+}
+
+#btn-cv:hover{
+    border-color: $secondary-back-color;
+    background-color: $color-white;
+    color: $secondary-back-color;
+}
+
+@media(max-width: 1400px){
+    .arrows-AboutMe{
+        width: 90%;
+    }
+}
+@media(max-width: 1200px){
+    .arrows-AboutMe{
+        display: none;
+    }
+}
+
+@media(max-width:576px){
+    .img-AboutMe{
+        img{
+        height: 20rem;
+        }
+    }
+}

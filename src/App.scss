@@ -1,0 +1,36 @@
+/*Colors*/
+$color-background: #F47882;
+$color-first-gradient: #fa6370;
+$secondary-back-color : #AE575F;
+$third-back-color: #944950;
+$color-black: black;
+$color-grey-1: #5B5B5B;
+$color-grey-2: #707070;
+$color-grey-3: #807F7F;
+$color-grey-4: #A8A7A9;
+$color-grey-5: #D6D6D6;
+$color-white: #FFFFFF;
+
+/*Sizes*/
+$text-size-1: 80%;
+$text-size-1a: 87,5%;
+$text-size-1b: 95%;
+$text-size-2: 100%;
+$text-size-3: 120%;
+$text-size-4: 130%;
+$text-size-5: 250%;
+
+/*Font style*/
+.App {
+  font-family:  'Helvetica Neue';
+}
+
+
+//Global Styles
+.text-grey-center{
+  color: $color-grey-1;
+  text-align: center;
+}
+.pointerCursor{
+  cursor: pointer;
+}

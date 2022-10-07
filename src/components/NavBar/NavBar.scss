@@ -1,0 +1,40 @@
+@import '/src/App.scss';
+
+.navbar-expand-lg{
+    .navbar-toggler{
+        border: 0rem;
+    }
+    .navbar-nav{
+        .nav-link{
+            color: $color-white;
+            font-size: $text-size-2;
+        }
+        .nav-link:hover{
+            color: $color-white;
+            font-size: $text-size-2;
+            text-decoration: underline;
+        }
+    }
+}
+#btnNavBar{
+    background-color: transparent;
+    border-color: $color-white;
+    color: $color-white;
+}
+
+#btnNavBar:hover{
+    background-color: $color-white;
+    color: $secondary-back-color;
+    border-color: $color-white;
+}
+
+@media (min-width:992px){
+    .idioms-desktop{
+        display: none;
+    }
+}
+@media(max-width:991px){
+.idioms{
+    display: none;
+}
+}

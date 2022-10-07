@@ -1,0 +1,296 @@
+@import '/src/App.scss';
+
+//color logos
+.section-skills{
+    height: 140px;
+    text-decoration: none;
+    p{
+     width: max-content;
+     font-size: $text-size-1;
+     color: $color-grey-1;
+    }
+    svg{
+        height: 60px;
+    }
+
+    //jquery
+    #jquery-4{
+        #Trazado_50{
+            fill: $color-grey-1;
+        }
+        #Trazado_51{
+            fill: $color-grey-2;
+        }
+        #Trazado_52{
+            fill: $color-grey-1;
+        }
+        #Trazado_53{
+            fill: $color-grey-2;
+        }
+        #Trazado_54{
+            fill: $color-grey-1;
+        }
+    }
+
+    //Bootstrap
+    #bootstrap-5-1{
+       fill: $color-grey-1;
+    }
+
+    //Javascript
+    #logo-javascript{
+        #Trazado_48{
+            fill: $color-grey-1;
+        }
+        #Trazado_49{
+            fill: $color-white
+        }
+    }
+
+    //illustrator
+    #Grupo_133{
+        #Trazado_14{
+            fill: $color-grey-1;
+        }
+        #Trazado_15{
+            fill: $color-white;
+        }
+    }
+
+    //html5
+    #html-1{
+        #Trazado_42{
+            fill: $color-grey-1;
+        }
+        #Trazado_43{
+            fill: $color-grey-2;
+        }
+        #Trazado_44{
+            fill: $color-white;
+        }
+    }
+
+    //XD
+    #adobe-xd-2{
+        #Trazado_18{
+            fill: $color-grey-1;
+        }
+    }
+
+    //git
+    #git-icon{
+        fill: $color-grey-1;
+    }
+
+    //photoshop
+    #adobe-photoshop-2{
+        #Trazado_16{
+            fill: $color-grey-1;
+        }   
+        #Trazado_17{
+            fill: $color-white
+        }
+    }
+}
+
+//hover effect
+.section-skills:hover{
+
+     //jquery
+     #jquery-4{
+        #Trazado_50{
+            fill: #1266A9;
+        }
+        #Trazado_51{
+            fill: #1266A9;
+        }
+        #Trazado_52{
+            fill: #1266A9;
+        }
+        #Trazado_53{
+            fill: #1266A9;
+        }
+        #Trazado_54{
+            fill: #1266A9;
+        }
+    }
+
+     //Bootstrap
+     #bootstrap-5-1{
+        fill: #7952B3;
+    }
+
+    //css3
+
+    #css-3{
+        #Trazado_45{
+            fill: #1B73BA;
+        }
+        #Trazado_46{
+            fill: #1C88C7;
+        }
+    }
+
+    //miro
+    #miro-2_2_{
+        #Trazado_29{
+            fill: #FFD02F;
+        }
+        #Trazado_30{
+            fill: $color-black;
+        }
+    }
+
+    //Optimal Workshop
+
+    #Grupo_140{
+        #Rectángulo_52{
+            stroke: $color-black;
+        }
+        #OW{
+            fill: $color-black;
+        }
+    }
+
+    //mui
+    #material-ui-1{
+        #Trazado_25{
+            fill:#0081CB;
+        }
+        #Trazado_26{
+            fill:#0081CB;
+        }
+        #Trazado_27{
+            fill:#0081CB;
+        }
+        #Trazado_28{
+            fill:#0081CB;
+        }
+    }
+    
+    //reactjs
+    #react-2{
+        #Trazado_41{
+            fill: #61DAFB ;
+        }
+        #Elipse_1{
+            fill: #61DAFB ;
+        }
+    }
+
+    //sass
+    #sass-1{
+        fill: #CF649A;
+    }
+
+    //Javascript
+    #logo-javascript{
+        #Trazado_48{
+            fill: #F0DB4F;
+        }
+        #Trazado_49{
+            fill: $color-black;
+        }
+    }
+
+    //illustrator
+    #Grupo_133{
+        #Trazado_14{
+            fill: #330000;
+        }
+        #Trazado_15{
+            fill: #FF9A00;
+        }
+    }
+
+    //xd
+    #adobe-xd-2{
+        #Trazado_18{
+            fill: #400835;
+        }
+        #Trazado_19{
+            fill: #ED6CEF;
+        }
+    }
+
+    //git
+    #git-icon{
+        fill: #DE4C36;
+    }
+
+    //photoshop
+    #adobe-photoshop-2{
+        #Trazado_16{
+            fill: #001E36;
+        }   
+        #Trazado_17{
+            fill: #31A8FF;
+        }
+    }
+
+    //html5
+    #html-1{
+        #Trazado_42{
+            fill: #E34F26;
+        }
+        #Trazado_43{
+            fill: #EF652A;
+        }
+    }
+
+    //figma
+    #figma-1{
+        #Trazado_20{
+            fill: #0ACF83;
+        }
+        #Trazado_21{
+            fill: #A259FF;
+        }
+        #Trazado_22{
+            fill: #F24E1E;
+        }
+        #Trazado_23{
+            fill: #FF7262;
+        }
+        #Trazado_24{
+            fill: #1ABCFE;
+        }
+    }
+
+    //firebase
+   
+    #firebase-1{
+        #Trazado_31{
+            fill: #F6820C;
+        }
+        #Trazado_33-2{
+            fill: #F9A312;
+        }
+        #Trazado_34{
+            fill: #F6820C;
+        }
+        #Trazado_36-2{
+            fill: #FFA50E;
+        }
+        #Trazado_37{
+            fill: #F6820C;
+        }
+        #Trazado_38{
+            fill: #FCCA3F;
+        }
+        #Trazado_39{
+            fill: #FCCA3F;
+        }
+        #Trazado_40{
+            fill: #FCCA3F;
+        }
+    }
+
+    //coderhouse
+    #Componente_1_4{
+        #Enmascarar_grupo_1{
+            opacity: 1;
+        }
+    }
+    
+}
