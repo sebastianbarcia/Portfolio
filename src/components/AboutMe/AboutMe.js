@@ -9,14 +9,14 @@ import TranslateContext from '../../context/context';
 
 const AboutMe = () => {
     const {aboutMeTranslate , titleAboutMe} = useContext(TranslateContext)
-    const [changeImg, setImg] = useState("./images-profile/profile-negative.jpeg");
-    const handleMouseEnter = () => setImg("./images-profile/profile-color.jpeg");
-    const handleMouseLeave = () => setImg("./images-profile/profile-negative.jpeg");
+    const [changeImg, setImg] = useState("https://sebastianbarcia.github.io/portfolio/images-profile/profile-negative.jpeg");
+    const handleMouseEnter = () => setImg("https://sebastianbarcia.github.io/portfolio/images-profile/profile-color.jpeg");
+    const handleMouseLeave = () => setImg("https://sebastianbarcia.github.io/portfolio/images-profile/profile-negative.jpeg");
     
     return(
         <>
             <h4 className="text-grey-center py-4 mt-5" id='sectionAboutUs'>{titleAboutMe}</h4>
-            <div className="container">
+            <div className="container pb-4">
                 <div className="px-lg-5 mx-lg-5 d-flex justify-content-between flex-lg-row flex-column-reverse">
                     <div className="col-xl-5 col-lg-6 col-12 d-flex flex-column justify-content-center">
                     {aboutMeTranslate.map((text) =>{
@@ -27,7 +27,7 @@ const AboutMe = () => {
                             )}   
                         )}
                         <div className='d-flex justify-content-center pt-xl-4'>
-                            <a href='./CV/sebastian_barcia-cv.pdf' target="_blank" rel="noopener noreferrer">
+                            <a href='https://sebastianbarcia.github.io/portfolio/CV/sebastian_barcia-cv.pdf' target="_blank" rel="noopener noreferrer">
                                 <button type="button" className='btn px-5' id='btn-cv'>CV</button>
                             </a>
                         </div>   

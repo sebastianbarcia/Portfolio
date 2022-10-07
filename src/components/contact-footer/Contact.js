@@ -23,7 +23,8 @@ const Contact = () => {
         <p className="mb-0 pe-sm-2 me-sm-3 fs-5 mt-3">{mailHelp}</p>
         <img
           className="mt-3 arrow-right"
-          src={`./vectors/icon-arrow-right.svg`}
+          src={`https://sebastianbarcia.github.io/portfolio/vectors/icon-arrow-right.svg`}
+          alt="arrow-right-footer"
         ></img>
         <p className="mb-0 ps-sm-2 ms-sm-3 fs-5 mt-3">
           <a

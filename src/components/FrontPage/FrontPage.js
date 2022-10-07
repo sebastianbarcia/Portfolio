@@ -38,7 +38,7 @@ const FrontPage= () =>{
                         duration={500}
                         className='pointerCursor'
                         > 
-                        <img src='./vectors/ionic-ios-arrow-down.svg' alt='arrow-down'></img></Link>
+                        <img src='https://sebastianbarcia.github.io/portfolio/vectors/ionic-ios-arrow-down.svg' alt='arrow-down'></img></Link>
                     </div>
                 </div>
             </div>
