@@ -35,7 +35,7 @@ const NavBarOptions = [
 const AboutMeText = [
   {
     paragraph:
-      "Hace mas de 2 años me he reconvertido al mundo digital y me capacito para especializarme en el desarrollo front end y el diseño UX/UI. Me gusta diseñar sitios visualmente atractivos, simples y minimalistas, con gran ocupación en la experiencia de los usuarios y el código. Me considero una persona dedicada, con mucho compromiso en todo lo que hago, muy atento a los detalles y con ganas de ayudar a los demas. Me encanta la tecnología y como simplifica la vida de las personas, la música, los amigos, la familia y el kitesurf. Vivo en Galicia, España, rodeado entre el mar, las montañas y la buena comida!",
+      "Hace mas de 2 años me he reconvertido al mundo digital y me capacito para especializarme en el desarrollo front end y el diseño UX/UI. Me gusta diseñar sitios visualmente atractivos, simples y minimalistas, con énfasis en la experiencia de los usuarios y el código. Me considero una persona dedicada, con mucho compromiso en todo lo que hago, muy atento a los detalles y con ganas de ayudar a los demas. Me encanta la tecnología y como simplifica la vida de las personas, la música, los amigos, la familia y el kitesurf. Vivo en Galicia, España, rodeado entre el mar, las montañas y la buena comida!",
   },
 ];
 
@@ -115,7 +115,7 @@ const NavBarOptionsEN = [
 const AboutMeTextEN = [
   {
     paragraph:
-      "More than 2 years ago I have reconverted to the digital world and I am trained to specialize in front end development and UX/UI design. I like to design visually attractive, simple and minimalist sites, with great occupation in the user experience and code. I consider myself a dedicated person, with a lot of commitment in everything I do, very attentive to details and eager to help others. I love technology and how it simplifies people's lives, music, friends, family and kitesurfing. I live in Galicia, Spain, surrounded by the sea, mountains and good food!",
+      "More than 2 years ago I converted to the digital world and trained myself to specialize in front end development and UX/UI design. I like to design visually appealing, simple and minimal sites with an emphasis on user experience and code. I consider myself a dedicated person, with a lot of commitment in everything I do, very attentive to details and eager to help others. I love technology and how it simplifies people's lives, music, friends, family and kitesurfing. I live in Galicia, Spain, surrounded by the sea, the mountains and good food!",
   },
 ];
 
