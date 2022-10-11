@@ -17,7 +17,7 @@ const CardsSkills = ({ item, styleContainer }) => {
                 className="d-flex flex-column justify-content-center section-skills align-items-center"
                 href={logos.link}
               >
-                <div href={logos.link} className="img-logos">
+                <div className="img-logos">
                   {logos.img}
                 </div>
                 <p className="text-center pt-3 mb-0">{logos.nameLogo}</p>

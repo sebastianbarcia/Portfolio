@@ -17,8 +17,6 @@ import Photoshop from "../components/logos/photoshop/photoshop";
 import Optimal from "../components/logos/optimal-workshop/optimal-workshop";
 import Coderhouse from "../components/logos/coderhouse/coderhouse";
 
-
-
 import Restaurantpe from "../components/logos/restaurant.pe/logo-restaurantpe";
 import Bicicleters from "../components/logos/bicicleters/bicicleters";
 import WkLogo from "../components/logos/wkLogo/wk-logo";
@@ -180,7 +178,7 @@ const CoursesEN = [
   {
     img: <Coderhouse />,
     nameLogo: "React JS",
-    link: "https://api.coderhouse.com/ch-www-api//certifications/62cde42389e7090019566454/download",
+    link: "./reactjs-certificado.png",
     id: 5,
   },
 ];
