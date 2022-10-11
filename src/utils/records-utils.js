@@ -76,31 +76,31 @@ const Courses = [
   {
     img: <Coderhouse />,
     nameLogo: "Photoshop e Illustrator",
-    link: "https://www.coderhouse.es/certificados/5f0cb011bfd5c30092aa52e0",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/5f0cb011bfd5c30092aa52e0/download",
     id: 1,
   },
   {
     img: <Coderhouse />,
     nameLogo: "Diseño UX/UI",
-    link: "https://www.coderhouse.es/certificados/5fb2d8d262d2c400134b8aa0",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/5fb2d8d262d2c400134b8aa0/download",
     id: 2,
   },
   {
     img: <Coderhouse />,
     nameLogo: "Desarrollo web",
-    link: "https://www.coderhouse.es/certificados/61ae81720342500047aa0e8e",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/61ae81720342500047aa0e8e/download",
     id: 3,
   },
   {
     img: <Coderhouse />,
     nameLogo: "Javascript",
-    link: "https://www.coderhouse.es/certificados/620e4bf86c55be12c1a21e35",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/620e4bf86c55be12c1a21e35/download",
     id: 4,
   },
   {
     img: <Coderhouse />,
     nameLogo: "React JS",
-    link: "https://www.coderhouse.es/certificados/62cde42389e7090019566454",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/62cde42389e7090019566454/download",
     id: 5,
   },
 ];
@@ -156,31 +156,31 @@ const CoursesEN = [
   {
     img: <Coderhouse />,
     nameLogo: "Photoshop & Illustrator",
-    link: "https://www.coderhouse.es/certificados/5f0cb011bfd5c30092aa52e0",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/5f0cb011bfd5c30092aa52e0/download",
     id: 1,
   },
   {
     img: <Coderhouse />,
     nameLogo: "Design UX/UI",
-    link: "https://www.coderhouse.es/certificados/5fb2d8d262d2c400134b8aa0",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/5fb2d8d262d2c400134b8aa0/download",
     id: 2,
   },
   {
     img: <Coderhouse />,
     nameLogo: "Web development",
-    link: "https://www.coderhouse.es/certificados/61ae81720342500047aa0e8e",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/61ae81720342500047aa0e8e/download",
     id: 3,
   },
   {
     img: <Coderhouse />,
     nameLogo: "Javascript",
-    link: "https://www.coderhouse.es/certificados/620e4bf86c55be12c1a21e35",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/620e4bf86c55be12c1a21e35/download",
     id: 4,
   },
   {
     img: <Coderhouse />,
     nameLogo: "React JS",
-    link: "https://www.coderhouse.es/certificados/62cde42389e7090019566454",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/62cde42389e7090019566454/download",
     id: 5,
   },
 ];
