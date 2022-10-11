@@ -98,7 +98,7 @@ const Courses = [
   {
     img: <Coderhouse />,
     nameLogo: "React JS",
-    link: "https://sebastianbarcia.github.io/portfolio/reactjs-certificado.png",
+    link: "https://api.coderhouse.com/ch-www-api//certifications/62cde42389e7090019566454/download",
     id: 5,
   },
 ];
