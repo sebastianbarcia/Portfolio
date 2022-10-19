@@ -1,12 +1,17 @@
+import  './Languages.scss'
+
 import { useContext } from "react"
 import TranslateContext from "../../context/context"
+import SelectColorBtnContext from '../../context/SelectColorContext';
+
+
 
 const Languages = () =>{
-    
+    const {slcLanguageColor} = useContext(SelectColorBtnContext);
     const {translatePageEnglish , translatePageSpanish , language} = useContext(TranslateContext)
     return(
         <>
-         <li class="nav-item dropdown ">
+         <li class={`nav-item dropdown ${slcLanguageColor}`}>
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {language}
                 </a>

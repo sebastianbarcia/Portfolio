@@ -11,8 +11,11 @@ import { Link } from 'react-scroll'
 import { useContext } from 'react'
 import TranslateContext from '../../context/context';
 
+import SelectColorBtnContext from '../../context/SelectColorContext'
+
 const NavBar = () =>{
     const { linksNavBar , btnContactNavBar } = useContext(TranslateContext);
+    const { wordColor } = useContext(SelectColorBtnContext);
     return(
         <>
             <nav class="navbar navbar-expand-lg justify-content-between navbar-dark px-lg-5 mx-lg-5 align-items-start">
@@ -40,7 +43,6 @@ const NavBar = () =>{
                              <div className='idioms-desktop'>
                             <Languages/>
                         </div>
-                            
                         </div>
                     </div>
                 </div> 
@@ -49,7 +51,7 @@ const NavBar = () =>{
                         <div className='idioms'>
                             <Languages/>
                         </div>
-                        <a href='mailto:sebastianbarcia.97@gmail.com'> <button className='btn ms-3 pe-3 ps-3' id='btnNavBar'>{btnContactNavBar}</button></a>
+                        <a href='mailto:sebastianbarcia.97@gmail.com'> <button className={`btn ms-3 pe-3 ps-3 btnNavBar ${wordColor}`}>{btnContactNavBar}</button></a>
                     </ul>
                     </div> 
                 

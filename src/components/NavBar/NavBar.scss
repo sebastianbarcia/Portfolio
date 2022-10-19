@@ -14,19 +14,30 @@
             font-size: $text-size-2;
             text-decoration: underline;
         }
+        .btnNavBar{
+            background-color: transparent;
+            border-color: $color-white;
+            color: $color-white;
+        }
+        .wordColorOne:hover{
+            color: $secondary-back-color;
+        }
+        .wordColorTwo:hover{
+            color:rgb(52, 50, 50);
+        }
+        .wordColorThree:hover{
+            color: blue;  
+        }
+        .wordColorFour:hover{
+            color: rgb(136, 30, 136);
+        }
+        .btnNavBar:hover{
+            background-color: $color-white;
+            border-color: $color-white;
+        }
     }
 }
-#btnNavBar{
-    background-color: transparent;
-    border-color: $color-white;
-    color: $color-white;
-}
 
-#btnNavBar:hover{
-    background-color: $color-white;
-    color: $secondary-back-color;
-    border-color: $color-white;
-}
 
 @media (min-width:992px){
     .idioms-desktop{

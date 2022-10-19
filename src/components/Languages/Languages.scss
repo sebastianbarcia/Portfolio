@@ -1,0 +1,31 @@
+@import "/src/App.scss";
+
+.firstLanguageColor {
+  .dropdown-menu {
+    .dropdown-item:active {
+      background-color: $color-first-gradient;
+    }
+  }
+}
+.secondLanguageColor {
+    .dropdown-menu {
+      .dropdown-item:active {
+        background-color: $color-black;
+      }
+    }
+}
+.thirdLanguageColor {
+    .dropdown-menu {
+      .dropdown-item:active {
+        background-image: linear-gradient(to bottom, blue, violet);
+      }
+    }
+}
+
+.fourLanguageColor {
+    .dropdown-menu {
+      .dropdown-item:active {
+        background-color: rgb(136, 30, 136);
+      }
+    }
+}

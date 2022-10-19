@@ -10,9 +10,11 @@ import { Link } from 'react-scroll';
 //context
 import { useContext } from 'react'
 import TranslateContext from '../../context/context';
+import SelectColorBtnContext from '../../context/SelectColorContext';
 
 const FrontPage= () =>{
-    const { pressArrow , subTitleFront , titleFront } = useContext(TranslateContext)
+    const {selectColors} = useContext(SelectColorBtnContext);
+    const { pressArrow , subTitleFront , titleFront } = useContext(TranslateContext);
     let linkPageLinkedin = 'https://www.linkedin.com/in/sebastian-barcia/'
     let linkPageGithub = 'https://github.com/sebastianbarcia';
     let hoverEffectContact = 'link-hover-front';
@@ -20,7 +22,7 @@ const FrontPage= () =>{
     let padSpacce='pe-4'
     let sizeLink = "31.151"
     return(
-        <div className="back-ground">
+        <div className= {`back-ground ${selectColors}`}>
             <div className="container">
                 <NavBar/>
                 <div className="px-lg-5 mx-lg-5 front-style">

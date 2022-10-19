@@ -11,8 +11,10 @@ import { SkillsLogos } from "../../utils/records-utils";
 //Context
 import { useContext } from "react";
 import TranslateContext from "../../context/context";
+import SelectColorBtnContext from '../../context/SelectColorContext'
 
 const GroupSecondSection = () => {
+  const {selectColors} = useContext(SelectColorBtnContext);
   const { coursesStudy, certifications, toolsTitle, workTitle } =
     useContext(TranslateContext);
 
@@ -28,7 +30,7 @@ const GroupSecondSection = () => {
       >
         {workTitle}
       </h4>
-      <div className="background-works">
+      <div className={`background-works ${selectColors}`}>
         <Works />
         <Skills
           paddingClass={"pb-lg-3 pb-5"}

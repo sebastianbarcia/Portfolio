@@ -34,3 +34,20 @@ $text-size-5: 250%;
 .pointerCursor{
   cursor: pointer;
 }
+
+
+//Select backgrounds colors - global
+
+.firstColor{
+  background-color: $color-background;
+  background:linear-gradient(to bottom , $color-first-gradient,$third-back-color);
+}
+.blackColor{
+  background-color: rgb(52, 50, 50);
+}
+.violetColor{
+  background-image: linear-gradient(to bottom, blue, violet);
+}
+.fourColor{
+  background-color: rgb(136, 30, 136);
+}

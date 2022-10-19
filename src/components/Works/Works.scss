@@ -1,9 +1,6 @@
 @import '/src/App.scss';
 
 .background-works{
-    background-color: black;
-    background-color: $color-background;
-    background:linear-gradient(to bottom, $color-first-gradient,$third-back-color);
     height: max-content;
     .works-container{
         position: relative;

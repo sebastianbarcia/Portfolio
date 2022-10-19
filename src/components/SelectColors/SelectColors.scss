@@ -1,0 +1,42 @@
+@import '/src/App.scss';
+.selectColorsButtons{
+    .btnColorFirst{
+        background-image: linear-gradient(to bottom , $color-first-gradient,$third-back-color);
+        padding: 10px;
+        border: 0px solid;
+    }
+    .btnColorFirst:hover{
+        background-image: linear-gradient(to bottom , $third-back-color,$third-back-color);
+    }
+    .btnColorSecond{
+        background-color: rgb(52, 50, 50);
+        padding: 10px;
+        border: 0px solid;
+    }
+  
+    .btnColorSecond:hover{
+        background-color: rgb(0, 0, 0);
+    }
+    .btnColorSecond:focus{
+        background: rgb(52, 50, 50);
+    }
+    .btnColorThird{
+        background-image: linear-gradient(to bottom, blue, violet);
+        padding: 10px;
+        border: 0px solid;
+    }
+    .btnColorThird:hover{
+        background-image: linear-gradient(to bottom, rgb(1, 1, 188), rgb(230, 58, 230));
+    }
+    .btnColorFour{
+        background: rgb(103, 22, 103);
+        padding: 10px;
+        border: 0px solid;
+    }
+    .btnColorFour:hover{
+        background-color: rgb(84, 13, 84);
+    }
+    .btnColorFour:focus{
+        background-color: rgb(103, 22, 103);
+    }
+}

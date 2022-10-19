@@ -11,17 +11,114 @@
         height: 28rem;
     }
 }
-
-#btn-cv{
-    background-color: $secondary-back-color;
-    border-color: $secondary-back-color;
-    color: $color-white;
+.arrowFirstSelected{
+    g{
+        fill: #944950;
+    }
+}
+.arrowSecondSelected{
+    g{
+        fill: rgb(52, 50, 50);
+    }
 }
 
-#btn-cv:hover{
-    border-color: $secondary-back-color;
-    background-color: $color-white;
-    color: $secondary-back-color;
+.arrowThirdSelected{
+    g{
+        fill: rgb(170, 97, 170);
+        
+    }
+}
+.arrowFourSelected{
+    g{
+        fill:  rgb(136, 30, 136);
+        
+    }
+}
+
+
+.aboutUsContainer{
+
+    //base
+    .btn-cv{ 
+        color: $color-white;
+    }
+    .btn-cv:hover{
+        background-color: $color-white;
+    }
+
+    //first color button
+    .firstAboutColor{
+        background-color: $secondary-back-color;
+        border-color: $secondary-back-color;
+    }
+    .firstAboutColor:hover{
+        color: $secondary-back-color;
+    }
+    .firstAboutColor:focus{
+        background-color: $secondary-back-color;
+        border-color: #944950;
+        color: white;
+    }
+    .firstAboutColor:focus:hover{
+        background-color: white;
+        color: #944950;
+    }
+
+    //Second color button
+    .secondAboutColor{
+        background-color: rgb(52, 50, 50);
+        border-color:rgb(52, 50, 50);
+    }
+    .secondAboutColor:hover{ 
+        color: rgb(52, 50, 50);
+    }
+    .secondAboutColor:focus{
+        background-color: rgb(52, 50, 50);
+        color: white;
+    }
+    .secondAboutColor:focus:hover{
+        background-color: white;
+        color: rgb(52, 50, 50);
+    }
+
+    //Third color button
+    .thirdAboutColor{
+        background-image: linear-gradient(to bottom, blue, violet);
+        border-color: white;
+    }
+     
+    .thirdAboutColor:hover{
+        border-color: blue;
+        color: white;
+    }
+    .thirdAboutColor:focus{
+        background-image: linear-gradient(to bottom, blue, violet);
+        border-color: white;
+        color: white;
+    }
+    .thirdAboutColor:focus:hover{
+        border-color: blue;
+    }
+
+    //Four button color
+    .fourAboutColor{
+        background-color: rgb(136, 30, 136);
+    }
+   
+    .fourAboutColor:hover{
+        border-color: rgb(136, 30, 136);
+        color: rgb(136, 30, 136);
+    }
+    .fourAboutColor:focus{
+        background-color: rgb(136, 30, 136);
+        color: white;
+        border-color: rgb(136, 30, 136);
+    }
+    .fourAboutColor:focus:hover{
+        background-color: white;
+        color: rgb(136, 30, 136);
+        border-color: rgb(136, 30, 136);
+    }
 }
 
 @media(max-width: 1400px){
