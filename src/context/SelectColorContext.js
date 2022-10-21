@@ -8,6 +8,7 @@ const SelectColorProvider = ({children}) => {
     const [aboutColor , setColorAbout] = useState("firstAboutColor")
     const [arrowSelect , setArrows] = useState("arrowFirstSelected")
     const [slcLanguageColor, setSelectLanguageColor] = useState("firstLanguageColor")
+    const [changeMetaColor, setChangeMetaColor] = useState("#fa6370")
 
     const handleChangeColorOne = () =>{
         setSelectColors("firstColor");
@@ -15,20 +16,23 @@ const SelectColorProvider = ({children}) => {
         setColorAbout("firstAboutColor");
         setArrows("arrowFirstSelected");
         setSelectLanguageColor("firstLanguageColor");
+        setChangeMetaColor('#fa6370')
     }
     const handleChangeColorTwo = () =>{
         setSelectColors("blackColor");
         setWordColor("wordColorTwo");
         setColorAbout("secondAboutColor");
         setArrows("arrowSecondSelected");
-        setSelectLanguageColor("secondLanguageColor")
+        setSelectLanguageColor("secondLanguageColor");
+        setChangeMetaColor('black')
     }
     const handleChangeColorThree = () =>{
         setSelectColors("violetColor");
         setWordColor("wordColorThree");
         setColorAbout("thirdAboutColor");
         setArrows("arrowThirdSelected");
-        setSelectLanguageColor("thirdLanguageColor")
+        setSelectLanguageColor("thirdLanguageColor");
+        setChangeMetaColor('red')
     }
     const handleChangeColorFour = () =>{
         setSelectColors("fourColor");
@@ -36,6 +40,7 @@ const SelectColorProvider = ({children}) => {
         setColorAbout("fourAboutColor");
         setArrows("arrowFourSelected");
         setSelectLanguageColor("fourLanguageColor")
+        setChangeMetaColor('blue')
     }
 
     const data ={
@@ -47,7 +52,8 @@ const SelectColorProvider = ({children}) => {
         wordColor,
         aboutColor,
         arrowSelect,
-        slcLanguageColor
+        slcLanguageColor,
+        changeMetaColor
     }
     return (
         <SelectColorBtnContext.Provider value={data}>

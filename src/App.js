@@ -13,11 +13,14 @@ import SelectColors from "./components/SelectColors/SelectColors";
 import { TranslateProvider } from "./context/context";
 import { SelectColorProvider } from "./context/SelectColorContext";
 
+import HeadHelmet from "./components/HeadHelmet/HeadHelmet";
+
 function App() {
   return (
     <TranslateProvider>
       <SelectColorProvider>
         <div className="App">
+          <HeadHelmet/>
           <FrontPage />
           <AboutMe />
           <GroupSecondSection />
