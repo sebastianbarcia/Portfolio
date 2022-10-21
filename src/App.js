@@ -6,14 +6,15 @@ import FrontPage from "./components/FrontPage/FrontPage";
 import AboutMe from "./components/AboutMe/AboutMe";
 import GroupSecondSection from "./components/GroupSecondSection/GroupSecondSection";
 import Contact from "./components/contact-footer/Contact";
+import SelectColors from "./components/SelectColors/SelectColors";
+import HeadHelmet from "./components/HeadHelmet/HeadHelmet";
+
+//Vectors
 import IconArrowUp from "./Vectors/IconArrowUp";
 
-import SelectColors from "./components/SelectColors/SelectColors";
-
+//Context
 import { TranslateProvider } from "./context/context";
 import { SelectColorProvider } from "./context/SelectColorContext";
-
-import HeadHelmet from "./components/HeadHelmet/HeadHelmet";
 
 function App() {
   return (

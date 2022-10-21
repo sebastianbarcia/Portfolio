@@ -24,7 +24,7 @@ const SelectColorProvider = ({children}) => {
         setColorAbout("secondAboutColor");
         setArrows("arrowSecondSelected");
         setSelectLanguageColor("secondLanguageColor");
-        setChangeMetaColor('black')
+        setChangeMetaColor('#343232')
     }
     const handleChangeColorThree = () =>{
         setSelectColors("violetColor");
@@ -32,7 +32,7 @@ const SelectColorProvider = ({children}) => {
         setColorAbout("thirdAboutColor");
         setArrows("arrowThirdSelected");
         setSelectLanguageColor("thirdLanguageColor");
-        setChangeMetaColor('red')
+        setChangeMetaColor('blue')
     }
     const handleChangeColorFour = () =>{
         setSelectColors("fourColor");
@@ -40,7 +40,7 @@ const SelectColorProvider = ({children}) => {
         setColorAbout("fourAboutColor");
         setArrows("arrowFourSelected");
         setSelectLanguageColor("fourLanguageColor")
-        setChangeMetaColor('blue')
+        setChangeMetaColor('rgb(136, 30, 136)')
     }
 
     const data ={
