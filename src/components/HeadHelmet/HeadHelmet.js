@@ -8,7 +8,6 @@ const HeadHelmet = () =>{
         <>
         <Helmet>
             <meta name="theme-color" content={changeMetaColor}/>
-            {console.log(changeMetaColor)}
         </Helmet>
         </>
     )
