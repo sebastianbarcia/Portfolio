@@ -65,7 +65,7 @@ const CardsText = [
       "Sitio web creado para dar a conocer el nuevo software para controlar la gestión de locales gastronómicos en Mexico.",
     skills: "HTML5 - SASS -  Bootstrap5 - Javascript",
     linkGitHub: "https://github.com/sebastianbarcia/restaurant.pe",
-    linkpage: "https://restaurant.rowe.mx/",
+    linkpage: "https://sebastianbarcia.github.io/restaurant.pe/",
     id: 3,
   },
 ];
@@ -145,7 +145,7 @@ const CardsTextEN = [
       "Website created to publicize the new software to control the management of gastronomic establishments in Mexico",
     skills: "HTML5 - SASS -  Bootstrap5 - Javascript",
     linkGitHub: "https://github.com/sebastianbarcia/restaurant.pe",
-    linkpage: "https://restaurant.rowe.mx/",
+    linkpage: "https://sebastianbarcia.github.io/restaurant.pe/",
     id: 3,
   },
 ];
